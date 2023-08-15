@@ -1,6 +1,6 @@
-import React from "react"
-import { HiArrowNarrowRight } from "react-icons/hi"
-import { Link } from "react-scroll"
+import React from 'react';
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -15,11 +15,9 @@ const Home = () => {
           I'm a Mobile Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] ">
-          Currently studying at the University of Palangka Raya, majoring in
-          Informatics Engineering. I'm very interested in matters related to IT
-          and programming, especially in the Mobile Development section. I often
-          make a small project to deepen understanding of the language
-          programming being studied.
+          I am a fresh graduate from Palangka Raya University, majoring in
+          Computer Engineering. I have a strong interest in the field of IT and
+          programming
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
@@ -35,7 +33,7 @@ const Home = () => {
         <p></p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

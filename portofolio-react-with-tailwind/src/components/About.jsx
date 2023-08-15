@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 const About = () => {
   return (
@@ -18,17 +18,18 @@ const About = () => {
           </div>
           <div>
             <p>
-              Currently studying at the University of Palangka Raya, majoring in
-              Informatics Engineering. I'm very interested in matters related to
-              IT and programming, especially in the Mobile Development section.
-              I often make a small project to deepen understanding of the
-              language programming being studied.
+              Currently, I am focusing on learning website development using
+              React JS and mobile application development using React Native. I
+              also have experience in using React Native through the MSIB
+              program at Binar Academy. I am currently seeking a Mobile
+              Development or Front-end Development position to utilize and
+              enhance my skills while taking the next step in my career.
             </p>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
