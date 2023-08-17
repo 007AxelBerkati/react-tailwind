@@ -1,18 +1,18 @@
-import React, { useState } from "react"
-import { BsFillPersonLinesFill } from "react-icons/bs"
-import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa"
-import { HiOutlineMail } from "react-icons/hi"
-import { Link } from "react-scroll"
-import Logo from "../assets/logo.png"
+import React, { useState } from 'react';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { Link } from 'react-scroll';
+import Logo from '../assets/logo.png';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
 
-  const handleClick = () => setNav(!nav)
+  const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "50px" }} />
+        <img src={Logo} alt="Logo" style={{ width: '50px' }} />
       </div>
 
       {/* {Menu} */}
@@ -53,8 +53,8 @@ const Navbar = () => {
       <ul
         className={
           !nav
-            ? "hidden"
-            : " absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            ? 'hidden'
+            : ' absolute top-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl">
@@ -120,7 +120,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] ">
             <a
-              href="https://drive.google.com/file/d/1z4NTmOhb8ERFmym0N6jBNjJfp1zJVQac/view?usp=sharing"
+              href="https://drive.google.com/file/d/1aXahxZgfvUet4hwhKH42BGE7LK_EOuHG/view?usp=sharing"
               className="flex justify-between items-center w-full text-gray-300 "
             >
               Resume <BsFillPersonLinesFill size={30} />
@@ -129,7 +129,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
