@@ -1,9 +1,9 @@
-import React from "react"
-import { data } from "../data/data.js"
+import React from 'react';
+import { data } from '../data/data.js';
 
 const Work = () => {
   // projects file
-  const project = data
+  const project = data;
   //setProject(data);
 
   return (
@@ -22,7 +22,10 @@ const Work = () => {
           {project.map((item, index) => (
             <div
               key={index}
-              style={{ backgroundImage: `url(${item.image})` }}
+              style={{
+                backgroundImage: `url(${item.image})`,
+                objectFit: 'fill',
+              }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
@@ -41,6 +44,16 @@ const Work = () => {
                       Code
                     </button>
                   </a>
+                  {item?.live && (
+                    <a href={item.live} target="_blank" rel="noreferrer">
+                      <button
+                        className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg"
+                      >
+                        Live
+                      </button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -48,7 +61,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

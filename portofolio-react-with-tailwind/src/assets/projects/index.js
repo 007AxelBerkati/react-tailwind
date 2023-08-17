@@ -5,6 +5,7 @@ import MyPokemon from './myPokemon.png';
 import Metaverse from './metaverse.png';
 import SecondHand from './secondHand.png';
 import MyAbsensi from './myAbsensi.png';
+import MyMemorize from './myMemorize.png';
 
 export {
   MoviesStream,
@@ -14,4 +15,5 @@ export {
   SecondHand,
   Metaverse,
   MyAbsensi,
+  MyMemorize,
 };

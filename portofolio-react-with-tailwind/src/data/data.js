@@ -4,6 +4,7 @@ import {
   MyAbsensi,
   MyBook,
   MyChatting,
+  MyMemorize,
   MyPokemon,
   SecondHand,
 } from '../assets/projects';
@@ -25,7 +26,7 @@ export const data = [
     id: 3,
     name: 'My Absensi',
     image: MyAbsensi,
-    github: 'https://gitlab.com/007AxelBerkati/bookapp_redux_testing3',
+    github: 'https://github.com/007AxelBerkati/MyAbsensi',
   },
   {
     id: 4,
@@ -39,10 +40,17 @@ export const data = [
     image: MyPokemon,
     github: 'https://github.com/007AxelBerkati/AppPokemon',
   },
+  // {
+  //   id: 6,
+  //   name: 'Metaverse',
+  //   image: Metaverse,
+  //   github: 'https://github.com/007AxelBerkati/MyAbsensi',
+  // },
   {
-    id: 6,
+    id: 7,
     name: 'My Memorize',
-    image: Metaverse,
-    github: 'https://github.com/007AxelBerkati/MyAbsensi',
+    image: MyMemorize,
+    github: 'https://github.com/007AxelBerkati/memories',
+    live: 'https://mymemorize.vercel.app/',
   },
 ];
